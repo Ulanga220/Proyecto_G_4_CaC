@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!--BOOTSTRAP-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">  
+<link rel="stylesheet" href="/css/style.css">
+<title>Linea Blanca</title>
+<link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+</head>
+<body>
+
+<header>
+  <!--ENCABEZADO-->
+    <nav class="navbar navbar-light pt-2 pb-2" style ="background: linear-gradient(to right, #ffffff,#c7b8fc);">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-5" href="#"><img src="./img/logo_texto.png"><!--Linea Blanca--></a>
+            <form class="d-flex col-8 mx-auto">
+                <div class="input-group">
+                  <input type="search" class="form-control " placeholder="Buscar Productos" aria-label="Buscar Productos">
+                  <button type="submit" class="input-group-text pt-0 pb-0" id="basic-addon1"><img src="./img/lupa.png"></button>
+                  
+                </div>
+            </form>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0" style="background: linear-gradient(to right, #e9a54b,#d47901);">
+        <div class="container-fluid">
+           
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto" >
+              <li class="nav-item" >
+                <a class="nav-link" href="/index.html">&nbsp;&nbsp;&nbsp;&nbsp;Productos&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    &nbsp;&nbsp;&nbsp;&nbsp;Categorías
+                </a>
+                <ul class="dropdown-menu" style="background-color: #e9a54b aria-labelledby= navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Celulares</a></li>
+                  <li><a class="dropdown-item" href="#">Linea Frío</a></li>
+                  <li><a class="dropdown-item" href="#">Linea Calor</a></li>
+                  <li><a class="dropdown-item" href="#">Computación</a></li>
+                </ul>
+              </li>&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item ">
+                <a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;&nbsp;Compras&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/perfil.html">&nbsp;&nbsp;&nbsp;&nbsp;Perfil&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item col-8">
+                <a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;&nbsp;<img src="./img/carrito.png">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</header>
+<main>
+    <!--CARRUSEL-->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+        <div class="carousel-item active">
+          <img src="./img/Carrusel 1.JPG" class="d-block w-100" alt="laptop">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Carrusel 2.JPG" class="d-block w-100" alt="samsung">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Carrusel 3.JPG" class="d-block w-100" alt="iphone">
+        </div>
+    </div>
+  </div>
+  <!-- MEDIOS DE PAGO -->
+<div>
+  <div class="row">
+    <div class="col-md-4" style="background-color: aqua";>
+      <img src="https://images.fravega.com/f100/d7f3beeecd136504e7dc91507dc53d15.png" class="img-thumbnail" width="250" alt="tarjetas">
+      <br> 
+      <h6>Pagá con credito y débito</h6>
+    </div>
+    <div class="col-md-4" style="background-color:rgba(170, 247, 162, 0.644);">
+      <img src="./img/pago-en-linea.png" class="img-thumbnail" width="50" alt="Mediosdepago">
+      <h6>Pagos Online</h6>
+    </div>
+    <div class="col-md-4" style="background-color: rgb(215, 129, 218);">
+      <img src="./img/Envios.png" class="img-thumbnail" width="50" alt="Envios"> 
+      <h6>Envios a todo el país</h6>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--CATEGORIAS-->
+
+<ul class="circulos">
+  <li><a href="#Heladera"><span>Heladera</span></a></li>
+  <li><a href="#Lavarropas"><span>Lavarropas</span></a></li>
+  <li><a href="#Cocina"><span>Cocina</span></a></li>
+  <li><a href="#Smart TV"><span>Smart TV</span></a></li>
+</ul>
+
+        <div class="card-group container col-sm">
+                
+                <div class="card">
+                        <img class="card-img-top" src="./img/Producto_1.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Heladera Patrick 227lt</h5>
+                    <p class="card-text">Cíclica Patrick HPK135M00B01</p>
+                    <p class="card-text"><small class="text-muted"><del>$95000</del></small></p>
+                    <h5 class="card-title">$80000</h5>
+                </div>
+                </div>
+                <div class="card">
+                <img class="card-img-top" src="./img/Producto_1.1.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Heladera Patrick 394lt</h5>
+                    <p class="card-text">Cíclica Patrick HPK151M11S</p>
+                    <p class="card-text"><small class="text-muted"><del>$95000</del></small></p>
+                    <h5 class="card-title">$80000</h5>
+                </div>
+                </div>
+                <div class="card">
+                <img class="card-img-top" src="./img/Producto_1.2.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Heladera Whirlpool 462lt</h5>
+                    <p class="card-text">No Frost Inverter Whirlpool WRM56D2</p>
+                    <p class="card-text"><small class="text-muted"><del>$95000</del></small></p>
+                    <h5 class="card-title">$80000</h5>
+                </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="./img/Producto_1.3.JPG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Heladera Patrick 516Lt</h5>
+                        <p class="card-text">Patrick PQP458BKRSS0.</p>
+                        <p class="card-text"><small class="text-muted"><del>$95000</del></small></p>
+                        <h5 class="card-title">$80000</h5>
+                    </div>
+                    </div>
+                
+        </div>
+        <br>
+        <br>
+        <div class="card-group container col-sm">
+                
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_2.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Lavarropas Drean 6Kg</h5>
+                <p class="card-text">Carga Frontal 800 RPM Drean Next 6.08 ECO</p>
+                <p class="card-text"><small class="text-muted"><del>$95000</del></small></p>
+                <h5 class="card-title">$80000</h5>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_2.1.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Lavarropas Longvie 8Kg</h5>
+                <p class="card-text">Lavarropas Carga Frontal 1200 RPM L18012</p>
+                <p class="card-text"><small class="text-muted"><del>$95000</del></small></p>
+                <h5 class="card-title">$80000</h5>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_2.2.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Lavarropas Electrolux 6.5kg</h5>
+                <p class="card-text">Lavarropas Carga Superior FuzzyWash Blanco</p>
+                <p class="card-text"><small class="text-muted"><del>$95000</del></small></p>
+                <h5 class="card-title">$80000</h5>
+            </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./img/Producto_2.3.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Lavarropas Eslabón 7kg</h5>
+                    <p class="card-text">Lavarropas Eslabón de Lujo Carga Superior EWH07AB</p>
+                    <p class="card-text"><small class="text-muted"><del>$95000</del></small></p>
+                    <h5 class="card-title">$80000</h5>
+                </div>
+                </div>
+            
+        </div>
+        <br>
+        <br>
+        <div class="card-group container col-sm">
+                
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_3.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Cocina Escorial</h5>
+                <p class="card-text">Cocina Candor S2 Gas Envasado 51cm</p>
+                <p class="card-text"><small class="text-muted"><del>$50000</del></small></p>
+                <h5 class="card-title">$40000</h5>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_3.1.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Cocina Electrolux</h5>
+                <p class="card-text">Cocina a Gas EWMR856 Blanca</p>
+                <p class="card-text"><small class="text-muted"><del>$50000</del></small></p>
+                <h5 class="card-title">$40000</h5>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_3.2.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Cocina Longvie</h5>
+                <p class="card-text">Cocina 12231B 56cm Blanca</p>
+                <p class="card-text"><small class="text-muted"><del>$50000</del></small></p>
+                <h5 class="card-title">$40000</h5>
+            </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./img/Producto_3.3.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Cocina Atma</h5>
+                    <p class="card-text">Cocina Electrica 60cm CCH062P</p>
+                    <p class="card-text"><small class="text-muted"><del>$50000</del></small></p>
+                    <h5 class="card-title">$40000</h5>
+                </div>
+                </div>
+            
+        </div>
+        <br>
+        <br>
+        <div class="card-group container col-sm">
+                
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_4.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Telefunken TV 32"</h5>
+                <p class="card-text">Smart TV HD Telefunken TK3219K5</p>
+                <p class="card-text"><small class="text-muted"><del>$160000</del></small></p>
+                <h5 class="card-title">$90000</h5>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_4.1.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Philips TV 50" UHD 4K</h5>
+                <p class="card-text">Smart TV 50PUD6654/77</p>
+                <p class="card-text"><small class="text-muted"><del>$160000</del></small></p>
+                <h5 class="card-title">$90000</h5>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="./img/Producto_4.2.JPG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Sansei Smart TV 50"</h5>
+                <p class="card-text">Smart TV 4K Sansei TDS2150UI</p>
+                <p class="card-text"><small class="text-muted"><del>$160000</del></small></p>
+                <h5 class="card-title">$90000</h5>
+            </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="./img/Producto_4.3.JPG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">LG 4K 65"</h5>
+                    <p class="card-text">Smart TV 4K 65UP7750PSB</p>
+                    <p class="card-text"><small class="text-muted"><del>$160000</del></small></p>
+                    <h5 class="card-title">$90000</h5>
+                </div>
+                </div>
+        
+            
+        </div>          
+
+        
+    </main>
+    <footer>
+        <!-- FORMULARIO-->
+    <div class="container"> 
+      <nav class="row navbar navbar-expand-lg navbar-light bg-light">
+          <div class="col-3 offset-1"> 
+              <form class="form-inline my-2 my-lg-0">
+              <h5>Suscribete para recibir nuevas ofertas</h5>
+              <div class="mb-3">
+          
+          <input class="form-control mr-sm-2" class="form-control"  aria-describedby="email" placeholder="Ingresa tu mail">
+          
+          </div>
+          <button type="submit" class="btn btn-primary" style="background-color:#d47901">SUSCRIBIRME</button>
+      </form>
+          </div>
+          <!--AYUDA COLUMNA 1-->
+      
+          <div class="col-3">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+              <h5>Ayuda</h5>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Centro de Ayuda</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link ">Centro de Seguridad</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Contáctanos</a>
+              </li>
+          </ul>
+          </div>
+          <!-- COMPRAR COLUMNA 2-->
+          <div class="col-3">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+              <h5>Comprar</h5>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Servicio Técnico</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Información Legal</a>
+              </li>
+          </ul>
+          </div>
+          <!-- MI CUENTA COLUMNA 3 -->
+          <div class="col-3">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+              <h5>Mi Cuenta</h5>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="/register.html">Regristrarme</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="/login.html">Iniciar sesión</a>
+              </li>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Olvide mi usuario</a>
+              </li>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Olvide mi contraseña</a>
+              </li>
+          </ul>
+          </div>
+      </div>
+      
+       <!-- ALL RIGHTS RESERVED-->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          <p> © 2022 Copyright: All rights Reserved | Capital Federal | Argentina </p>  
+      </div>
+  </nav>
+    </footer>
+    <script src="/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+</html>
