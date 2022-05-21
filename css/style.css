@@ -31,3 +31,7 @@ text-align: center;
 ul.circulos a:hover {
 background: #e9a54b;
 }
+
+.btn-primary, .btn-outline-secondary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #e9a54b !important;
+}
